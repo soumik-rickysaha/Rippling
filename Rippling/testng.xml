@@ -9,7 +9,7 @@
 	<test name="RipplingTest">
 
 		<classes>
-			<class name="Rippling.RipplingTests.Ripplingtest" />
+			<class name="Rippling.RipplingTests.Rippling" />
 		</classes>
 	</test> <!-- TimeTest -->
 </suite> <!-- TimeSuite -->

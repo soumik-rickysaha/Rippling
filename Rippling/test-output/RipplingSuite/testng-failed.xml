@@ -7,19 +7,19 @@
   <parameter name="ValidPhoneNumber" value="1234567890"/>
   <test name="RipplingTest(failed)">
     <classes>
-      <class name="Rippling.RipplingTests.Ripplingtest">
+      <class name="Rippling.RipplingTests.Rippling">
         <methods>
-          <include name="VerifyZeroCentWithAlphanumericData" invocation-numbers="0"/>
-          <include name="VerifyPhoneFieldWithInvalidData" invocation-numbers="0"/>
-          <include name="VerifyZeroCentWithValidData" invocation-numbers="0"/>
-          <include name="VerifyonlynumberWithvalidData" invocation-numbers="0"/>
           <include name="DriverClose"/>
-          <include name="VerifyPhoneField" invocation-numbers="0"/>
           <include name="VerifyPhoneFieldWithAlphanumericData" invocation-numbers="0"/>
+          <include name="VerifyZeroCentWithValidData" invocation-numbers="0"/>
+          <include name="VerifyPhoneField" invocation-numbers="0"/>
+          <include name="VerifyonlynumberWithvalidData" invocation-numbers="0"/>
           <include name="VerifyonlynumberWithAlphanumericData" invocation-numbers="0"/>
+          <include name="VerifyZeroCentWithAlphanumericData" invocation-numbers="0"/>
           <include name="DriverSetup"/>
+          <include name="VerifyPhoneFieldWithInvalidData" invocation-numbers="0"/>
         </methods>
-      </class> <!-- Rippling.RipplingTests.Ripplingtest -->
+      </class> <!-- Rippling.RipplingTests.Rippling -->
     </classes>
   </test> <!-- RipplingTest(failed) -->
 </suite> <!-- Failed suite [RipplingSuite] -->
