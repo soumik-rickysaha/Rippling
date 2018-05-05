@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="RipplingSuite">
+	<parameter name="ValidPhoneNumber" value="1234567890" />
+	<parameter name="InvalidPhoneNumber" value="12345678900" />
+	<parameter name="AlphanumericData" value="abcdefgh" />
+	<parameter name="NumericData" value="111" />
+	
+	<test name="RipplingTest">
+
+		<classes>
+			<class name="Rippling.RipplingTests.Ripplingtest" />
+		</classes>
+	</test> <!-- TimeTest -->
+</suite> <!-- TimeSuite -->

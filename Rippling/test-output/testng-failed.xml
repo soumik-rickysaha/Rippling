@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RipplingSuite]">
+  <parameter name="InvalidPhoneNumber" value="12345678900"/>
+  <parameter name="NumericData" value="111"/>
+  <parameter name="AlphanumericData" value="abcdefgh"/>
+  <parameter name="ValidPhoneNumber" value="1234567890"/>
+  <test name="RipplingTest(failed)">
+    <classes>
+      <class name="Rippling.RipplingTests.Ripplingtest">
+        <methods>
+          <include name="VerifyZeroCentWithAlphanumericData" invocation-numbers="0"/>
+          <include name="VerifyPhoneFieldWithInvalidData" invocation-numbers="0"/>
+          <include name="VerifyZeroCentWithValidData" invocation-numbers="0"/>
+          <include name="VerifyonlynumberWithvalidData" invocation-numbers="0"/>
+          <include name="DriverClose"/>
+          <include name="VerifyPhoneField" invocation-numbers="0"/>
+          <include name="VerifyPhoneFieldWithAlphanumericData" invocation-numbers="0"/>
+          <include name="VerifyonlynumberWithAlphanumericData" invocation-numbers="0"/>
+          <include name="DriverSetup"/>
+        </methods>
+      </class> <!-- Rippling.RipplingTests.Ripplingtest -->
+    </classes>
+  </test> <!-- RipplingTest(failed) -->
+</suite> <!-- Failed suite [RipplingSuite] -->
